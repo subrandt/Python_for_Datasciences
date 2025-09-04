@@ -1,4 +1,4 @@
-# 🐍 Python for Data Science: Foundational Exercises
+# 🐍 Python for Data Science
 ![Cover Image](CoverImage.png)
 
 
