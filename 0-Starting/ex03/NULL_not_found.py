@@ -5,6 +5,12 @@ Not all "false" values are the same!
 
 This module identifies 5 types of NULL values:
 None, NaN, 0, empty string, False.
+
+Note:
+    Uses isinstance() instead of type() == for type checking:
+    - isinstance() is the recommended approach (PEP 8)
+    - bool is a subclass of int in Python, so order matters:
+        we check bool BEFORE int to avoid False being caught as int
 """
 
 import math
