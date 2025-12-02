@@ -9,8 +9,8 @@ A way to encode text using dots (.) and dashes (-).
 Each letter/number has its own pattern.
 
 Example:
-    S = ... (3 dots)
-    O = --- (3 dashes)
+    S = ...
+    O = ---
     SOS = ... --- ...
 """
 

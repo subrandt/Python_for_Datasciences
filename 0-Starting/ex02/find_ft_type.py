@@ -1,6 +1,4 @@
 """
-Exercise 02: First function python
-
 Educational goal:
 Understand Python's dynamic typing and use type() to identify objects.
 

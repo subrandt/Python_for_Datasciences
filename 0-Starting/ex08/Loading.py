@@ -21,18 +21,20 @@ import sys
 import time
 
 
-def ft_tqdm(lst: range) -> None:
+def ft_tqdm(lst: range) -> None:  # Should be -> Generator, but following subject
     """
     Decorator that displays a progress bar for iterations.
-
+    
+    Note: The return type should technically be Generator[Any, None, None]
+    since this function uses yield, but the subject specifies -> None.
+    
     Args:
         lst: A range object to iterate over
-
+        
     Yields:
         Each element of the range, one at a time
     """
     total = len(lst)
-    start_time = time.time()
 
     for i, item in enumerate(lst):
         # Calculate progress
