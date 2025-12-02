@@ -18,19 +18,18 @@ Example:
 
 
 import sys
-import time
 
 
-def ft_tqdm(lst: range) -> None:  # Should be -> Generator, but following subject
+def ft_tqdm(lst: range) -> None:  # Should be -> Generator
     """
     Decorator that displays a progress bar for iterations.
-    
+
     Note: The return type should technically be Generator[Any, None, None]
     since this function uses yield, but the subject specifies -> None.
-    
+
     Args:
         lst: A range object to iterate over
-        
+
     Yields:
         Each element of the range, one at a time
     """
