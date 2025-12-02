@@ -7,5 +7,5 @@ setup(
     description="A sample test package",
     author="Susanne Brandt",
     author_email="subrandt@student.42angouleme.fr",
-    python_requires=">=3.7",
+    python_requires=">=3.10",
 )

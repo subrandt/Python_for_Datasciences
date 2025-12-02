@@ -8,4 +8,4 @@ version = "0.0.1"
 description = "A sample test package"
 readme = "README.md"
 authors = [{name = "Susanne Brandt", email = "subrandt@student.42angouleme.fr"}]
-requires-python = ">=3.7"
+requires-python = ">=3.10"
