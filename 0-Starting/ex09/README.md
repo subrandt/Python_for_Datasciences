@@ -92,3 +92,8 @@ ex09/
 ```bash
 pip uninstall ft-package
 ```
+
+## Clean
+```bash
+rm -rf dist/ build/ *.egg-info __pycache__
+```
